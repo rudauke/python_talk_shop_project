@@ -1,0 +1,27 @@
+[project]
+name = "python-talk-shop"
+version = "0.1.0"
+description = "Shop assistant that answers questions about products"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+authors = [
+    { name = "Jakub Zaręba", email = "jzareba2@st.swps.edu.pl" },
+    { name = "Piotr Gnyś", email = "pgnys@swps.edu.pl" },
+]
+
+[dependency-groups]
+dev = [
+  "ruff",
+  "mypy",
+  "pytest",
+  "pytest-cov",
+  "coverage",
+  "pre-commit",
+  "ipython"
+]
+
+nlp = [
+    "lark"
+]
